@@ -23,6 +23,12 @@
 2. 运行 `mvn spring-boot:run` 启动应用
 3. 访问 `http://localhost:8080/api/convert/doc-to-text` 进行文档转换
 
+### 使用Docker运行应用
+
+1. 构建Docker镜像 `docker-compose build`
+2. 启动应用 `docker-compose up`
+3. 访问 `http://localhost:8080/api/convert/doc-to-text` 进行文档转换
+
 ### 文档转换
 
 1. 上传Word文档
